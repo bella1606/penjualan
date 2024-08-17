@@ -21,7 +21,6 @@ class User_model extends CI_Model {
         $data = array(
           'nik' => htmlspecialchars($this->input->post('nik'), true),
           'username' => htmlspecialchars($this->input->post('username'), true),
-          'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
           'email' => htmlspecialchars($this->input->post('email'), true),
           'full_name' => htmlspecialchars($this->input->post('full_name'), true),
           'phone' => htmlspecialchars($this->input->post('phone'), true),
@@ -42,7 +41,6 @@ class User_model extends CI_Model {
         $id = $this->input->post('id');
     $data = array(
         'username' => htmlspecialchars($this->input->post('username'), true),
-        'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
         'email' => htmlspecialchars($this->input->post('email'), true),
         'full_name' => htmlspecialchars($this->input->post('full_name'), true),
         'phone' => htmlspecialchars($this->input->post('phone'), true),

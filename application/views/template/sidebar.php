@@ -16,8 +16,12 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="user">User</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
+                                    <a class="nav-link" href="<?php echo site_url('kategori')?>">Kategori</a>
+                                    <a class="nav-link" href="<?php echo site_url('satuan')?>">Satuan</a>
+                                    <a class="nav-link" href="<?php echo site_url('supplier')?>">Supplier </a>
+                                    <a class="nav-link" href="<?php echo site_url('kutomer')?>">Kustomer</a>
+                                    <a class="nav-link" href="<?php echo site_url('barang')?>">Barang</a>
+                                    <a class="nav-link" href="<?php echo site_url('user')?>">User</a>
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
